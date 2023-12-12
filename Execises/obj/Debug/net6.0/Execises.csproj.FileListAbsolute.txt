@@ -1,0 +1,15 @@
+C:\Users\fsstr\OneDrive\Skrivebord\1.-lektion-med-Tesniem\Execises\bin\Debug\net6.0\Execises.exe
+C:\Users\fsstr\OneDrive\Skrivebord\1.-lektion-med-Tesniem\Execises\bin\Debug\net6.0\Execises.deps.json
+C:\Users\fsstr\OneDrive\Skrivebord\1.-lektion-med-Tesniem\Execises\bin\Debug\net6.0\Execises.runtimeconfig.json
+C:\Users\fsstr\OneDrive\Skrivebord\1.-lektion-med-Tesniem\Execises\bin\Debug\net6.0\Execises.dll
+C:\Users\fsstr\OneDrive\Skrivebord\1.-lektion-med-Tesniem\Execises\bin\Debug\net6.0\Execises.pdb
+C:\Users\fsstr\OneDrive\Skrivebord\1.-lektion-med-Tesniem\Execises\obj\Debug\net6.0\Execises.csproj.AssemblyReference.cache
+C:\Users\fsstr\OneDrive\Skrivebord\1.-lektion-med-Tesniem\Execises\obj\Debug\net6.0\Execises.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fsstr\OneDrive\Skrivebord\1.-lektion-med-Tesniem\Execises\obj\Debug\net6.0\Execises.AssemblyInfoInputs.cache
+C:\Users\fsstr\OneDrive\Skrivebord\1.-lektion-med-Tesniem\Execises\obj\Debug\net6.0\Execises.AssemblyInfo.cs
+C:\Users\fsstr\OneDrive\Skrivebord\1.-lektion-med-Tesniem\Execises\obj\Debug\net6.0\Execises.csproj.CoreCompileInputs.cache
+C:\Users\fsstr\OneDrive\Skrivebord\1.-lektion-med-Tesniem\Execises\obj\Debug\net6.0\Execises.dll
+C:\Users\fsstr\OneDrive\Skrivebord\1.-lektion-med-Tesniem\Execises\obj\Debug\net6.0\refint\Execises.dll
+C:\Users\fsstr\OneDrive\Skrivebord\1.-lektion-med-Tesniem\Execises\obj\Debug\net6.0\Execises.pdb
+C:\Users\fsstr\OneDrive\Skrivebord\1.-lektion-med-Tesniem\Execises\obj\Debug\net6.0\Execises.genruntimeconfig.cache
+C:\Users\fsstr\OneDrive\Skrivebord\1.-lektion-med-Tesniem\Execises\obj\Debug\net6.0\ref\Execises.dll
