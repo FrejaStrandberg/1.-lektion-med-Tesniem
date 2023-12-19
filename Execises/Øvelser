@@ -1,0 +1,236 @@
+﻿// See https://aka.ms/new-console-template for more information
+using System.Globalization;
+using System.Security.Cryptography.X509Certificates;
+using System.Transactions;
+
+Console.WriteLine("Hello, World!");
+
+
+//EXERCISE 1 - basic
+{
+   Console.WriteLine("Heyy");
+   Console.WriteLine("Freja Strandberg!!");
+}
+
+//EXERCISE 2 - basic
+{
+   Console.WriteLine("What equals 15 + 17?");
+   Console.WriteLine(15+17);
+}
+
+//EXERCISE 3 - basic
+{
+    Console.WriteLine("What equals 36/6?");
+    Console.WriteLine(36/6);
+}
+
+//EXERCISE 4 - basic
+{
+    Console.WriteLine(-1+4*6);
+    Console.WriteLine((35+5)%7);
+    Console.WriteLine(14+(-4)*6/11);
+}
+
+
+
+
+//EXERCISE 7 - basic
+{
+
+    Console.Write("Enter a number: ");
+    int inputOne = Convert.ToInt32(Console.ReadLine());
+
+
+    Console.Write("Enter a new number: ");
+    int inputTwo = Convert.ToInt32(Console.ReadLine());
+
+
+//addition 
+    Console.WriteLine(inputOne + " + " + inputTwo + " = " + (inputOne + inputTwo));
+
+    Console.WriteLine("{0} + {1} = {2} ",inputOne, inputTwo, (inputOne + inputTwo));
+
+//Subtraction 
+    Console.WriteLine("{0} - {1} = {2}", inputOne, inputTwo, (inputOne - inputTwo));
+
+//Multiplication
+    Console.WriteLine("{0} * {1} = {2}", inputOne, inputTwo, (inputOne * inputTwo));
+
+//Division
+    Console.WriteLine("{0}/{1} = {2}", inputOne, inputTwo, (inputOne/inputTwo));
+}
+
+
+//EXERCISE 8 -loop through numbers from 1 to 10 multiplied with x
+{
+
+int x;
+
+    Console.Write("Enter a number: ");
+    x = Convert.ToInt32(Console.ReadLine());
+
+    Console.WriteLine("{0}*{1}={2}", x, 0, (x*0));
+    Console.WriteLine("{0}*{1}={2}", x, 1, (x*1));
+    Console.WriteLine("{0}*{1}={2}", x, 2, (x*2));
+    Console.WriteLine("{0}*{1}={2}", x, 3, (x*3));
+    Console.WriteLine("{0}*{1}={2}", x, 4, (x*4));
+    Console.WriteLine("{0}*{1}={2}", x, 5, (x*5));
+    Console.WriteLine("{0}*{1}={2}", x, 6, (x*6));
+    Console.WriteLine("{0}*{1}={2}", x, 7, (x*7));
+    Console.WriteLine("{0}*{1}={2}", x, 8, (x*8));
+    Console.WriteLine("{0}*{1}={2}", x, 9, (x*9));
+    Console.WriteLine("{0}*{1}={2}", x, 10, (x*10));
+}
+
+
+
+
+//EXERCISE 9 - The average of four input numbers - basic
+{
+
+int x, x2, x3, x4;
+
+Console.WriteLine("Enter number one: ");
+    x = Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine("Enter number two: ");
+    x2 = Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine("Enter number three: ");
+    x3 = Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine("Enter number four: ");
+    x4 = Convert.ToInt32(Console.ReadLine());
+    
+Console.WriteLine("The average of {0}, {1}, {2}, {3} is: {4}", x, x2, x3, x4, (x+x2+x3+x4)/4);
+}
+
+
+
+// 10 15 20 30 
+
+
+
+//EXERCISE 1 - if statements 
+{
+Console.WriteLine("input two numbers to find out if they are equal or not");
+
+Console.WriteLine("input 1st number: ");
+int intOne = Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine("input 2nd number: ");
+int intTwo = Convert.ToInt32(Console.ReadLine());
+
+if (intOne==intTwo)
+    Console.WriteLine("{0} and {1} are equal.", intOne, intTwo);
+
+else
+{
+    Console.WriteLine("{0} and {1} are not equal.", intOne, intTwo);
+}
+
+}
+
+
+//EXERCISE 3 - if statements 
+{
+Console.WriteLine("input a number to find out weather it is positive or negative: ");
+int number = Convert.ToInt32(Console.ReadLine());
+
+if (number >= 0)
+{
+Console.WriteLine("{0} is a positive number", number); 
+}
+
+else
+{
+Console.WriteLine("{0} is a negative number", number);
+}
+}
+
+
+//EXERCISE 4 - if statements 
+
+Console.WriteLine("Enter your age to see if you are old enough to vote");
+int age = Convert.ToInt32(Console.ReadLine());
+
+if (age > 18) 
+{
+Console.WriteLine("Congratulation! You can vote");
+}
+
+else
+{
+    Console.WriteLine("Sorry you are nor old enough to vore yet");
+    Console.WriteLine("You would be able to  vote after {0} years", (18-age));
+}
+
+
+
+//EXSERCISE 1 - Switch case - beregning af rod af andengradsligning
+
+int a, b, c, d;
+double double1, double2, double3;
+
+Console.WriteLine("Input the value of a, b and c to calculate the root of a quadratic equation.");
+
+Console.WriteLine("Enter the value of a");
+a = Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine("Enter the value of b");
+b = Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine("Enter the value of c");
+c = Convert.ToInt32(Console.ReadLine());
+
+
+d = b * b - 4 * a * c; 
+
+if (d > 0)
+{
+    Console.WriteLine("The quadratic equation has two roots");
+
+    double1 = (-b - Math.Sqrt(d)) / (2 * a);
+    double2 = (-b + Math.Sqrt(d)) / (2* a);
+
+    Console.WriteLine("First root = {0}", double1);
+    Console.WriteLine("Second root = {0}", double2);
+}
+
+else if (d == 0)          
+{
+    Console.WriteLine("The quadratic equation has one root");
+
+    double3 = ((-b) / (2 * a));
+
+    Console.WriteLine("The one root = {0}",double3);
+}
+
+else
+{
+    Console.WriteLine("There is no solution");
+}
+
+
+//Exercise 13 - suitable message according to the temperature
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
